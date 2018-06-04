@@ -12,31 +12,25 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="I Told You Not To Go To Cat Mountain 2018" startnode="35" creator="Twine" creator-version="2.0.10" ifid="84BF3B9E-0EF7-4914-841D-6DC3457A8C7F" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-passage {
-	font-size: 11pt;
-	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+<tw-storydata name="I Told You Not To Go To Cat Mountain 2018" startnode="34" creator="Twine" creator-version="2.0.10" ifid="84BF3B9E-0EF7-4914-841D-6DC3457A8C7F" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story
+{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
 }
-
-tw-link {
-    font-weight: bold;
-		color: black; 
+tw-link { 
+	color: #800000; 
 }
+tw-sidebar tw-icon.redo {
+	display: none;
+}
+tw-sidebar tw-icon.undo {
+	display: none;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
 
@@ -130,8 +124,7 @@ Anna is sitting at the kitchen table, drinking spiced tea and smoking a rolled-u
 But for some reason, she also has the head of a mouse. This is odd, because Anna definitely always did have a human head.
 
 &quot;[[Anna!]]&quot;</tw-passagedata>
-<tw-passagedata pid="16" name="edge of the village" tags="" position="638,971">(if: $molly is true)[You head a thump sound behind you. Molly is watching you, crouched to pounce.
-
+<tw-passagedata pid="16" name="edge of the village" tags="" position="580,1000">(if: $molly is true)[You head a thump sound behind you. Molly is watching you, crouched to pounce.
 ]
 Ahead of you, you see the [[edge of the cliff]]. 
 
@@ -162,7 +155,7 @@ There is a bobble felt mouse with chewing marks on it.
 It is the sort of trash that Molly, your cat, would obsessively hoard in her spot under the sofa bed at home. The stallholder who is also a frog looks at you, and blinks his see-through eyelids. There is nothing you want to buy on this or any other [[market stalls]].</tw-passagedata>
 <tw-passagedata pid="20" name="edge of the cliff" tags="" position="830,879">Here you can [[look over the edge]].
 
-(if: $molly is true)[[[Wave toy over the edge]]]
+(if: $molly is true)[You wave that cat toy [[over the edge]].]
 (else:)[Head back to the [[village]].]</tw-passagedata>
 <tw-passagedata pid="21" name="look over the edge" tags="" position="956,878">In front of you and below you, there is the white fog, and nothing else. The bitter-pine smell is strong. The air is still. 
 
@@ -170,7 +163,7 @@ From within the fog, you think you can hear the odd faint sound - is it a sqeak?
 
 [[Head back to the edge of the cliff|edge of the cliff]]
 [[Step over the egde, towards the sounds|falling]].</tw-passagedata>
-<tw-passagedata pid="22" name="further up the mountain" tags="" position="325,1257">a steep rocky path leads up the mountain. Do you [[follow it up]] or, head back down to the [[village|through the village]] ?</tw-passagedata>
+<tw-passagedata pid="22" name="further up the mountain" tags="" position="325,1257">A steep rocky path leads up the mountain. Do you [[follow it up]] or, head back down to the [[village|through the village]] ?</tw-passagedata>
 <tw-passagedata pid="23" name="rearranging beneath your feet" tags="" position="303,121">You trudge on. The mist begins to clear a little, thankfully, and you hurry forwards towards...
 
 The [[mountain]] where you were just a moment ago? But how can that be? You must have somehow got turned around in that fog - but you were SURE you were heading away from the mountain...</tw-passagedata>
@@ -195,40 +188,37 @@ The cave is very dark, and smells of meat. A low rumbling comes from [[inside th
 
 The cat seems [[familiar]].
 
-She sees you, and wiggles. The whole mountain when she [[wiggles]].</tw-passagedata>
-<tw-passagedata pid="30" name="wiggles" tags="" position="578,1631">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="31" name="familiar" tags="" position="578,1756">The cat looks very familiar to you. In fact, it looks like a giant version of your own pet cat [[Molly]].
+She sees you, and wiggles. The whole mountain when she [[wiggles|wiggles]].</tw-passagedata>
+<tw-passagedata pid="30" name="familiar" tags="" position="578,1756">The cat looks very familiar to you. In fact, it looks like a giant version of your own pet cat [[Molly]].
 
 Especially when she opens her big clear blue eyes, looks at you and [[wiggles]].</tw-passagedata>
-<tw-passagedata pid="32" name="Molly" tags="" position="704,1756">Molly meows. 
+<tw-passagedata pid="31" name="Molly" tags="" position="704,1756">Molly meows. 
 
 This is okay. Molly is your cat.
 
-Molly [[loves you]].</tw-passagedata>
-<tw-passagedata pid="33" name="loves you" tags="" position="702,1631">Molly wiggles. The mountain shakes.
+Molly [[loves you|wiggles]].</tw-passagedata>
+<tw-passagedata pid="32" name="wiggles" tags="" position="702,1631">Molly wiggles. The mountain shakes.
 
 You turn to head out of the cave. If you roof falls, you don&#39;t want to trapped.
 
 Behind you, Molly [[chirrups]].</tw-passagedata>
-<tw-passagedata pid="34" name="chirrups" tags="" position="705,1506">You sprint towards the front of the cave. Molly lands with a crash behind you as you take off down the mountain.
+<tw-passagedata pid="33" name="chirrups" tags="" position="705,1506">You sprint towards the front of the cave. Molly lands with a crash behind you as you take off down the mountain.
 
 [[Run for the village]]</tw-passagedata>
-<tw-passagedata pid="35" name="Start" tags="" position="822,118">(set: $toy to false)
+<tw-passagedata pid="34" name="Start" tags="" position="822,118">(set: $toy to false)
 (set: $anna to false)
 (set: $fallen to false)
 
 Groggily, you [[open your eyes|base of the mountain]].</tw-passagedata>
-<tw-passagedata pid="36" name="falling" tags="" position="1081,877">You fall. (if: $toy is true)[The feathered cat toy from Anna streams in the wind, the feathers bright and fascinating.]
+<tw-passagedata pid="35" name="falling" tags="" position="1081,877">You fall. (if: $toy is true)[The feathered cat toy from Anna streams in the wind, the feathers bright and fascinating.]
 
 You fall into mist.
 
-(if: $fallen is false)
-[Through the mist, you hear small mewling peeps. It sounds like kittens miaowing. You remember when your cat Molly had kittens, little plugs of fur that turned startling quickly into tiny cats. You remember her teaching them to hunt, hers and their wiggles just before they would pounce. You wonder if Molly remembers the loss.
+(if: $fallen is false)[Through the mist, you hear small mewling peeps. It sounds like kittens miaowing. You remember when your cat Molly had kittens, little plugs of fur that turned startling quickly into tiny cats. You remember her teaching them to hunt, hers and their wiggles just before they would pounce. You wonder if Molly remembers the loss.
 
 What a strange thing to think of as you fall.]
 
-(else:)
-[As you fall, once again you hear the small squeaking peeps of kittens. You remember hearing that adult cats don&#39;t miaow to each other, only to humans.]
+(else:)[As you fall, once again you hear the small squeaking peeps of kittens. You remember hearing that adult cats don&#39;t miaow to each other, only to humans.]
 
 You fall.
 
@@ -237,26 +227,26 @@ You think: when you dream, when you fall, shouldn&#39;t you wake up when you hit
 You fall.
 
 [[You...|base of the mountain]]</tw-passagedata>
-<tw-passagedata pid="37" name="knock on doors" tags="" position="31,1129">You try knocking on a cardboard door. It&#39;s difficult to knock on damp cardboard, but you do succeed in making a muffled sound.
+<tw-passagedata pid="36" name="knock on doors" tags="" position="31,1129">You try knocking on a cardboard door. It&#39;s difficult to knock on damp cardboard, but you do succeed in making a muffled sound.
 
 (if: $anna is true)[No-one answers at any of the doors now. The street is silent, and eventually you give up and return to the [[streets]].](else:)[It takes a few attempts, but finally you knock on the door of [[one house]] that answers.]</tw-passagedata>
-<tw-passagedata pid="38" name="Anna!" tags="" position="24,1426">(set: $anna to true)
+<tw-passagedata pid="37" name="Anna!" tags="" position="24,1426">(set: $anna to true)
 
 &quot;Hello stranger.&quot;
 
 It&#39;s strange to hear Anna&#39;s voice come from the mouse&#39;s head, but it&#39;s definitely her.
 
 [[What are you doing here?]] </tw-passagedata>
-<tw-passagedata pid="39" name="What are you doing here?" tags="" position="24,1576">&quot;Fag break instead finishing some piece of shite essay&quot; she says. Anna studied philosophy, and you feel like that was a long time ago but apparently she is still writing essays.
+<tw-passagedata pid="38" name="What are you doing here?" tags="" position="24,1576">&quot;Fag break instead finishing some piece of shite essay&quot; she says. Anna studied philosophy, and you feel like that was a long time ago but apparently she is still writing essays.
 
 [[Do you ever write any other sort?]]
 [[I think I&#39;ll be going]]</tw-passagedata>
-<tw-passagedata pid="40" name="Do you ever write any other sort?" tags="" position="24,1726">&quot;Twat&quot; says Anna, but she&#39;s smiling.
+<tw-passagedata pid="39" name="Do you ever write any other sort?" tags="" position="24,1726">&quot;Twat&quot; says Anna, but she&#39;s smiling.
 
 [[Sit down opposite Anna]]
 Head back to the [[streets]] </tw-passagedata>
-<tw-passagedata pid="41" name="I think I&#39;ll be going" tags="" position="174,1726">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="42" name="Sit down opposite Anna" tags="" position="24,1876">“What criterion does Descartes offer as a way of distinguishing waking from dreaming experiences? Does it work?”
+<tw-passagedata pid="40" name="I think I&#39;ll be going" tags="" position="174,1726">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="41" name="Sit down opposite Anna" tags="" position="24,1876">“What criterion does Descartes offer as a way of distinguishing waking from dreaming experiences? Does it work?”
 
 Anna laughs.
 
@@ -267,34 +257,34 @@ You laugh, too, thinking that you&#39;ve missed this conversation. Not others th
 [[Where are we?]]
 [[What happened to your head?]]
 [[Goodbye, Anna|streets]]</tw-passagedata>
-<tw-passagedata pid="43" name="Where are we?" tags="" position="24,2026">&quot;Last night I dreamt I was a butterfly...&quot; Anna says again, looking vague. 
+<tw-passagedata pid="42" name="Where are we?" tags="" position="24,2026">&quot;Last night I dreamt I was a butterfly...&quot; Anna says again, looking vague. 
 
 &quot;That’s Zhuangzi, you know. I wonder why a butterfly and not, say, a cat.&quot;
 
 [[What happened to your head?]]
 [[This is creepy, I&#39;m leaving.|streets]]</tw-passagedata>
-<tw-passagedata pid="44" name="What happened to your head?" tags="" position="174,2026">Anna doesn&#39;t reply, but finishes her cigarette. She starts straight away to roll another one, dropping bits of tobacco as she does. She has her regular hands, quick and clumsy as ever.
+<tw-passagedata pid="43" name="What happened to your head?" tags="" position="174,2026">Anna doesn&#39;t reply, but finishes her cigarette. She starts straight away to roll another one, dropping bits of tobacco as she does. She has her regular hands, quick and clumsy as ever.
 
 You remember how much it used to annoy you when she dropped tobacco everywhere, how you were always picking it out the carpet. You feel a little petty when you think about how big a deal you used to make it out if it.
 
 [[Where are we?]]
 [[How is your mother?]]
-[[Goodbye, Anna|streets]</tw-passagedata>
-<tw-passagedata pid="45" name="How is your mother?" tags="" position="310,2029">&quot;The same. Mad as a box of lobsters.&quot;
+[[Goodbye, Anna|streets]]</tw-passagedata>
+<tw-passagedata pid="44" name="How is your mother?" tags="" position="310,2029">&quot;The same. Mad as a box of lobsters.&quot;
 
 [[Frogs. Box of frogs.]]</tw-passagedata>
-<tw-passagedata pid="46" name="Frogs. Box of frogs." tags="" position="448,2036">&quot;In her case, lobsters... She’s doing this weird research thing. With lobsters. Mapping their neurons. Making computer models of their neurons.&quot;
+<tw-passagedata pid="45" name="Frogs. Box of frogs." tags="" position="448,2036">&quot;In her case, lobsters... She’s doing this weird research thing. With lobsters. Mapping their neurons. Making computer models of their neurons.&quot;
 
 Anna has finished rolling her cigarette, and lights it.
 
 [[I wish you would stop smoking.]]
 [[Tell me more about the lobsters.]]</tw-passagedata>
-<tw-passagedata pid="47" name="I wish you would stop smoking." tags="" position="448,2186">It is true, you always wished she&#39;d stop. You think it&#39;s a disgusting habit, and you told her that many times. It was a recurring theme in your arguments.
+<tw-passagedata pid="46" name="I wish you would stop smoking." tags="" position="448,2186">It is true, you always wished she&#39;d stop. You think it&#39;s a disgusting habit, and you told her that many times. It was a recurring theme in your arguments.
 
 There were a lot of recurring argument themes, by the end.
 
 [[I missed you, you know]].</tw-passagedata>
-<tw-passagedata pid="48" name="Tell me more about the lobsters." tags="" position="598,2186">&quot;I wonder, if you make a computer program of a real lobster, and then you, I don’t know, do something that causes it pain…&quot;
+<tw-passagedata pid="47" name="Tell me more about the lobsters." tags="" position="598,2186">&quot;I wonder, if you make a computer program of a real lobster, and then you, I don’t know, do something that causes it pain…&quot;
 
 &quot;Plunge it alive into boiling water?&quot; you suggest. You don&#39;t think before you say it. You just remember how this conversation went.
 
@@ -303,7 +293,7 @@ There were a lot of recurring argument themes, by the end.
 Mouse-Anna looks thoughtful.
 
 [[I missed you, you know]]</tw-passagedata>
-<tw-passagedata pid="49" name="I missed you, you know" tags="" position="598,2336">&quot;Did I ever tell you I had this dream about us?&quot;
+<tw-passagedata pid="48" name="I missed you, you know" tags="" position="598,2336">&quot;Did I ever tell you I had this dream about us?&quot;
 
 Anna says nothing. 
 
@@ -317,7 +307,7 @@ You say to Anna: &quot;You told me that I was still really talking to you, and y
 
 [[It was a strange dream]]
 </tw-passagedata>
-<tw-passagedata pid="50" name="It was a strange dream" tags="" position="598,2486">Anna pauses in her smoking, and regards you with her giant dark mouse eyes. You struggle to remember what her face should have looked like, but this dark stare you remember well. Her stare used to make you feel special in the beginning, and then uncomfortable later on.
+<tw-passagedata pid="49" name="It was a strange dream" tags="" position="598,2486">Anna pauses in her smoking, and regards you with her giant dark mouse eyes. You struggle to remember what her face should have looked like, but this dark stare you remember well. Her stare used to make you feel special in the beginning, and then uncomfortable later on.
 
 She holds out the cigarette to you.
 
@@ -325,7 +315,7 @@ She holds out the cigarette to you.
 [[Ignore the cigarette]]
  
  </tw-passagedata>
-<tw-passagedata pid="51" name="Take the cigarette" tags="" position="598,2636">(set: $toy to true)
+<tw-passagedata pid="50" name="Take the cigarette" tags="" position="598,2636">(set: $toy to true)
 
 You take the cigarette from Anna, but as you take it, you realise that it is not fact a cigarette, but a long wooden stick. 
 
@@ -334,35 +324,26 @@ Even though you watched her roll it, it has definitely now became a wooden stick
 You bounce the stick, watching the feathers bounce up and down.
 
 When you look up, Anna has gone, and you are alone in the room. At least this time, [[it wasn&#39;t you who left|streets]].</tw-passagedata>
-<tw-passagedata pid="52" name="Ignore the cigarette" tags="" position="748,2636">You ignore the cigarette, and Anna sits in silence smoking. 
+<tw-passagedata pid="51" name="Ignore the cigarette" tags="" position="748,2636">You ignore the cigarette, and Anna sits in silence smoking. 
 
 This too feels familiar - the pair of you sitting in silence, whilst she smokes and you sit there feeling first guilty and then angry for feeling guilty. No-one could maintain a silence like Anna.
 
 It feels like you have been sitting there for years.
 
 Eventually, as always, you stand up and leave her sitting there, her huge eyes following you as you walk out of the room and back onto the [[streets]].</tw-passagedata>
-<tw-passagedata pid="53" name="Told me what?" tags="" position="169,607">&quot;I told you not to go to cat mountain&quot; replies the frog. He sighs, and does not say any more.
+<tw-passagedata pid="52" name="Told me what?" tags="" position="169,607">&quot;I told you not to go to cat mountain&quot; replies the frog. He sighs, and does not say any more.
 
 You debate whether to looks through the [[piles of old junk]], or return to the [[village]].
 </tw-passagedata>
-<tw-passagedata pid="54" name="Run for the village" tags="" position="704,1378">(set: $molly is true)
+<tw-passagedata pid="53" name="Run for the village" tags="" position="704,1378">(set: $molly to true)
 
 You sprint down the path. You hear Molly yowl, and look back over your shoulder. She is chasing you, gaining on you.
 
 You reach the village crossraods - do you [[head to the market]], the [[streets of houses]], or out towards the [[rocky cliff|edge of the village]]?</tw-passagedata>
-<tw-passagedata pid="55" name="head to the market" tags="" position="955,1450">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="56" name="streets of houses" tags="" position="830,1506">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="57" name="[Wave toy over the edge" tags="" position="830,1029">Molly catches sight of the feathers - her favourite!
-
-Swerving at the last minute, the giant cat leaps towards the tiny feathers. She hooks her paws over it, over you, tumbling both you and her over the edge of the cliff.
-
-You fall.
-
-You and Molly fall.
-
-[[You...|waking]]</tw-passagedata>
-<tw-passagedata pid="58" name="waking" tags="" position="830,1179">Groggily, you [[open your eyes|back at home]].</tw-passagedata>
-<tw-passagedata pid="59" name="back at home" tags="" position="830,1329">You wake up hot and sweating The surface underneath you is soft and plush, your right arm is numb from being trapped under your body, and something hot and furry is wrapped around your head.. Where are you? 
+<tw-passagedata pid="54" name="head to the market" tags="" position="955,1450">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="55" name="streets of houses" tags="" position="830,1506">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="56" name="waking" tags="" position="830,1179">Groggily, you [[open your eyes|back at home]].</tw-passagedata>
+<tw-passagedata pid="57" name="back at home" tags="" position="830,1329">You wake up hot and sweating The surface underneath you is soft and plush, your right arm is numb from being trapped under your body, and something hot and furry is wrapped around your head.. Where are you? 
 
 Of course, you are at home, in bed. Where else would you be?
 
@@ -375,6 +356,15 @@ On your pillow, above the indentation made by your head, Molly appears to have a
 &quot;Mmmnnneeeee&quot; says Molly, requesting breakfast, even though it is the middle of the night. When you continue to stare at her, she jumps off the bed, and pads off into the night.
 
 THE END</tw-passagedata>
+<tw-passagedata pid="58" name="over the edge" tags="" position="799,1007">Molly catches sight of the feathers - her favourite!
+
+Swerving at the last minute, the giant cat leaps towards the tiny feathers. She hooks her paws over it, over you, tumbling both you and her over the edge of the cliff.
+
+You fall.
+
+You and Molly fall.
+
+[[You...|waking]]</tw-passagedata>
 </tw-storydata>
 
 
