@@ -5,4 +5,4 @@ Useful link:
 https://twinery.org/wiki/if
 
 Hosted version:
-http://www.philome.la/plwmpo/i-told-you-not-to-go-to-cat-mountain
+https://cat-mountain-games.itch.io/i-told-you-not-to-go-to-cat-mountain
